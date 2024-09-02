@@ -23,7 +23,7 @@ Pipelines is designed to:
 6. Load recommendations into Google BigQuery.
 
 ## Architecture
-
+![TMDB_ETL_RECOMMENDATION_ARCHITECTURE_DIAGRAM](https://github.com/uminskib/Trending_movies_ETL_Recommendation/blob/f9ae214228cfe2a46bc7ea4231333ff93a5b75d3/assets/TMDB%20ETL%20Recommendation%20Diagram.png)
 1. **TMDB API**: Source of the data.
 2. **Apache Airflow**: Orchestrates and manages tasks.
 3. **Apache Spark**:  Analytics engine for data processing. Using with Python to transform and create recommendation system.
